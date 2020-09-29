@@ -1,0 +1,314 @@
+
+
+2020-09-29 22:17:27.031146: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-09-29 22:17:28.885670: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2020-09-29 22:17:28.950129: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-29 22:17:28.950781: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:00:04.0 name: Tesla T4 computeCapability: 7.5
+coreClock: 1.59GHz coreCount: 40 deviceMemorySize: 14.73GiB deviceMemoryBandwidth: 298.08GiB/s
+2020-09-29 22:17:28.950838: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-09-29 22:17:29.184036: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2020-09-29 22:17:29.300216: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2020-09-29 22:17:29.320626: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2020-09-29 22:17:29.615378: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2020-09-29 22:17:29.678331: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2020-09-29 22:17:30.189159: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2020-09-29 22:17:30.189379: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-29 22:17:30.190157: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-29 22:17:30.190683: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2020-09-29 22:17:30.219057: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2200000000 Hz
+2020-09-29 22:17:30.219284: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x1dd4a00 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-09-29 22:17:30.219316: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-09-29 22:17:30.423607: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-29 22:17:30.424360: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x1dd4f40 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-09-29 22:17:30.424392: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+2020-09-29 22:17:30.425496: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-29 22:17:30.426087: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:00:04.0 name: Tesla T4 computeCapability: 7.5
+coreClock: 1.59GHz coreCount: 40 deviceMemorySize: 14.73GiB deviceMemoryBandwidth: 298.08GiB/s
+2020-09-29 22:17:30.426138: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-09-29 22:17:30.426187: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2020-09-29 22:17:30.426212: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2020-09-29 22:17:30.426234: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2020-09-29 22:17:30.426254: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2020-09-29 22:17:30.426275: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2020-09-29 22:17:30.426299: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2020-09-29 22:17:30.426374: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-29 22:17:30.426986: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-29 22:17:30.427552: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2020-09-29 22:17:30.431366: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-09-29 22:17:34.260164: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-09-29 22:17:34.260230: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0 
+2020-09-29 22:17:34.260244: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N 
+2020-09-29 22:17:34.264838: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-29 22:17:34.265474: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-29 22:17:34.266041: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:39] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2020-09-29 22:17:34.266085: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 13962 MB memory) -> physical GPU (device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5)
+WARNING:tensorflow:`input_shape` is undefined or non-square, or `rows` is not in [96, 128, 160, 192, 224]. Weights for input shape (224, 224) will be loaded as the default.
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/mobilenet_v2/mobilenet_v2_weights_tf_dim_ordering_tf_kernels_1.0_224_no_top.h5
+9412608/9406464 [==============================] - 0s 0us/step
+2020-09-29 22:17:36.546213: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session started.
+2020-09-29 22:17:36.550074: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1391] Profiler found 1 GPUs
+2020-09-29 22:17:36.581818: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcupti.so.10.1
+2020-09-29 22:17:36.795528: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1513] CUPTI activity buffer flushed
+
+Epoch 00001: LearningRateScheduler reducing learning rate to tf.Tensor(3.6193494e-05, shape=(), dtype=float32).
+Epoch 1/60
+2020-09-29 22:17:39.145032: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2020-09-29 22:17:40.827066: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+      1/Unknown - 0s 101us/step - loss: 2.1202 - categorical_accuracy: 0.12502020-09-29 22:17:47.669460: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session started.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+2020-09-29 22:17:47.744373: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1513] CUPTI activity buffer flushed
+2020-09-29 22:17:47.761014: I tensorflow/core/profiler/internal/gpu/device_tracer.cc:223]  GpuTracer has collected 281 callback api events and 281 activity events. 
+2020-09-29 22:17:47.830432: I tensorflow/core/profiler/rpc/client/save_profile.cc:176] Creating directory: drive/My Drive/SMOMI/logs1/ilcd-1601417854.6210814/train/plugins/profile/2020_09_29_22_17_47
+2020-09-29 22:17:47.851040: I tensorflow/core/profiler/rpc/client/save_profile.cc:182] Dumped gzipped tool data for trace.json.gz to drive/My Drive/SMOMI/logs1/ilcd-1601417854.6210814/train/plugins/profile/2020_09_29_22_17_47/21f7f3e8db48.trace.json.gz
+2020-09-29 22:17:47.909385: I tensorflow/core/profiler/rpc/client/save_profile.cc:176] Creating directory: drive/My Drive/SMOMI/logs1/ilcd-1601417854.6210814/train/plugins/profile/2020_09_29_22_17_47
+2020-09-29 22:17:47.921840: I tensorflow/core/profiler/rpc/client/save_profile.cc:182] Dumped gzipped tool data for memory_profile.json.gz to drive/My Drive/SMOMI/logs1/ilcd-1601417854.6210814/train/plugins/profile/2020_09_29_22_17_47/21f7f3e8db48.memory_profile.json.gz
+2020-09-29 22:17:47.949697: I tensorflow/python/profiler/internal/profiler_wrapper.cc:111] Creating directory: drive/My Drive/SMOMI/logs1/ilcd-1601417854.6210814/train/plugins/profile/2020_09_29_22_17_47Dumped tool data for xplane.pb to drive/My Drive/SMOMI/logs1/ilcd-1601417854.6210814/train/plugins/profile/2020_09_29_22_17_47/21f7f3e8db48.xplane.pb
+Dumped tool data for overview_page.pb to drive/My Drive/SMOMI/logs1/ilcd-1601417854.6210814/train/plugins/profile/2020_09_29_22_17_47/21f7f3e8db48.overview_page.pb
+Dumped tool data for input_pipeline.pb to drive/My Drive/SMOMI/logs1/ilcd-1601417854.6210814/train/plugins/profile/2020_09_29_22_17_47/21f7f3e8db48.input_pipeline.pb
+Dumped tool data for tensorflow_stats.pb to drive/My Drive/SMOMI/logs1/ilcd-1601417854.6210814/train/plugins/profile/2020_09_29_22_17_47/21f7f3e8db48.tensorflow_stats.pb
+Dumped tool data for kernel_stats.pb to drive/My Drive/SMOMI/logs1/ilcd-1601417854.6210814/train/plugins/profile/2020_09_29_22_17_47/21f7f3e8db48.kernel_stats.pb
+
+      2/Unknown - 0s 147ms/step - loss: 2.0501 - categorical_accuracy: 0.1016WARNING:tensorflow:Callbacks method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0713s vs `on_train_batch_end` time: 0.2216s). Check your callbacks.
+220/220 [==============================] - 54s 247ms/step - loss: 1.8839 - categorical_accuracy: 0.1248 - val_loss: 1.4085 - val_categorical_accuracy: 0.2257
+
+Epoch 00002: LearningRateScheduler reducing learning rate to tf.Tensor(3.2749227e-05, shape=(), dtype=float32).
+Epoch 2/60
+220/220 [==============================] - 32s 147ms/step - loss: 1.4638 - categorical_accuracy: 0.2163 - val_loss: 1.1778 - val_categorical_accuracy: 0.3257
+
+Epoch 00003: LearningRateScheduler reducing learning rate to tf.Tensor(2.9632725e-05, shape=(), dtype=float32).
+Epoch 3/60
+220/220 [==============================] - 32s 144ms/step - loss: 1.2620 - categorical_accuracy: 0.2996 - val_loss: 1.0168 - val_categorical_accuracy: 0.4040
+
+Epoch 00004: LearningRateScheduler reducing learning rate to tf.Tensor(2.6812797e-05, shape=(), dtype=float32).
+Epoch 4/60
+220/220 [==============================] - 32s 144ms/step - loss: 1.0954 - categorical_accuracy: 0.3745 - val_loss: 0.8996 - val_categorical_accuracy: 0.4647
+
+Epoch 00005: LearningRateScheduler reducing learning rate to tf.Tensor(2.426122e-05, shape=(), dtype=float32).
+Epoch 5/60
+220/220 [==============================] - 31s 142ms/step - loss: 0.9796 - categorical_accuracy: 0.4239 - val_loss: 0.8117 - val_categorical_accuracy: 0.5107
+
+Epoch 00006: LearningRateScheduler reducing learning rate to tf.Tensor(2.1952459e-05, shape=(), dtype=float32).
+Epoch 6/60
+220/220 [==============================] - 32s 145ms/step - loss: 0.8963 - categorical_accuracy: 0.4670 - val_loss: 0.7449 - val_categorical_accuracy: 0.5527
+
+Epoch 00007: LearningRateScheduler reducing learning rate to tf.Tensor(1.9863406e-05, shape=(), dtype=float32).
+Epoch 7/60
+220/220 [==============================] - 31s 143ms/step - loss: 0.8230 - categorical_accuracy: 0.5042 - val_loss: 0.6929 - val_categorical_accuracy: 0.5793
+
+Epoch 00008: LearningRateScheduler reducing learning rate to tf.Tensor(1.7973152e-05, shape=(), dtype=float32).
+Epoch 8/60
+220/220 [==============================] - 31s 143ms/step - loss: 0.7731 - categorical_accuracy: 0.5272 - val_loss: 0.6520 - val_categorical_accuracy: 0.5983
+
+Epoch 00009: LearningRateScheduler reducing learning rate to tf.Tensor(1.626278e-05, shape=(), dtype=float32).
+Epoch 9/60
+220/220 [==============================] - 32s 143ms/step - loss: 0.7305 - categorical_accuracy: 0.5465 - val_loss: 0.6194 - val_categorical_accuracy: 0.6130
+
+Epoch 00010: LearningRateScheduler reducing learning rate to tf.Tensor(1.4715171e-05, shape=(), dtype=float32).
+Epoch 10/60
+220/220 [==============================] - 32s 146ms/step - loss: 0.6976 - categorical_accuracy: 0.5643 - val_loss: 0.5924 - val_categorical_accuracy: 0.6243
+
+Epoch 00011: LearningRateScheduler reducing learning rate to tf.Tensor(1.3314837e-05, shape=(), dtype=float32).
+Epoch 11/60
+220/220 [==============================] - 31s 142ms/step - loss: 0.6650 - categorical_accuracy: 0.5790 - val_loss: 0.5702 - val_categorical_accuracy: 0.6340
+
+Epoch 00012: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 12/60
+220/220 [==============================] - 31s 141ms/step - loss: 0.6454 - categorical_accuracy: 0.5852 - val_loss: 0.5506 - val_categorical_accuracy: 0.6400
+
+Epoch 00013: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 13/60
+220/220 [==============================] - 31s 139ms/step - loss: 0.6196 - categorical_accuracy: 0.5957 - val_loss: 0.5325 - val_categorical_accuracy: 0.6480
+
+Epoch 00014: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 14/60
+220/220 [==============================] - 31s 142ms/step - loss: 0.6024 - categorical_accuracy: 0.5995 - val_loss: 0.5160 - val_categorical_accuracy: 0.6517
+
+Epoch 00015: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 15/60
+220/220 [==============================] - 32s 143ms/step - loss: 0.5855 - categorical_accuracy: 0.6067 - val_loss: 0.5007 - val_categorical_accuracy: 0.6560
+
+Epoch 00016: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 16/60
+220/220 [==============================] - 31s 141ms/step - loss: 0.5656 - categorical_accuracy: 0.6151 - val_loss: 0.4870 - val_categorical_accuracy: 0.6607
+
+Epoch 00017: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 17/60
+220/220 [==============================] - 31s 143ms/step - loss: 0.5500 - categorical_accuracy: 0.6252 - val_loss: 0.4743 - val_categorical_accuracy: 0.6687
+
+Epoch 00018: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 18/60
+220/220 [==============================] - 31s 141ms/step - loss: 0.5404 - categorical_accuracy: 0.6276 - val_loss: 0.4626 - val_categorical_accuracy: 0.6713
+
+Epoch 00019: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 19/60
+220/220 [==============================] - 32s 143ms/step - loss: 0.5268 - categorical_accuracy: 0.6326 - val_loss: 0.4514 - val_categorical_accuracy: 0.6733
+
+Epoch 00020: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 20/60
+220/220 [==============================] - 32s 144ms/step - loss: 0.5110 - categorical_accuracy: 0.6388 - val_loss: 0.4409 - val_categorical_accuracy: 0.6773
+
+Epoch 00021: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 21/60
+220/220 [==============================] - 31s 143ms/step - loss: 0.5068 - categorical_accuracy: 0.6377 - val_loss: 0.4321 - val_categorical_accuracy: 0.6807
+
+Epoch 00022: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 22/60
+220/220 [==============================] - 31s 141ms/step - loss: 0.4899 - categorical_accuracy: 0.6471 - val_loss: 0.4232 - val_categorical_accuracy: 0.6833
+
+Epoch 00023: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 23/60
+220/220 [==============================] - 31s 141ms/step - loss: 0.4799 - categorical_accuracy: 0.6540 - val_loss: 0.4149 - val_categorical_accuracy: 0.6883
+
+Epoch 00024: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 24/60
+220/220 [==============================] - 30s 139ms/step - loss: 0.4774 - categorical_accuracy: 0.6492 - val_loss: 0.4075 - val_categorical_accuracy: 0.6890
+
+Epoch 00025: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 25/60
+220/220 [==============================] - 31s 140ms/step - loss: 0.4679 - categorical_accuracy: 0.6558 - val_loss: 0.4005 - val_categorical_accuracy: 0.6917
+
+Epoch 00026: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 26/60
+220/220 [==============================] - 31s 140ms/step - loss: 0.4533 - categorical_accuracy: 0.6593 - val_loss: 0.3941 - val_categorical_accuracy: 0.6940
+
+Epoch 00027: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 27/60
+220/220 [==============================] - 31s 140ms/step - loss: 0.4458 - categorical_accuracy: 0.6638 - val_loss: 0.3879 - val_categorical_accuracy: 0.6970
+
+Epoch 00028: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 28/60
+220/220 [==============================] - 31s 139ms/step - loss: 0.4440 - categorical_accuracy: 0.6630 - val_loss: 0.3817 - val_categorical_accuracy: 0.6987
+
+Epoch 00029: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 29/60
+220/220 [==============================] - 31s 142ms/step - loss: 0.4372 - categorical_accuracy: 0.6642 - val_loss: 0.3763 - val_categorical_accuracy: 0.7023
+
+Epoch 00030: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 30/60
+220/220 [==============================] - 32s 145ms/step - loss: 0.4278 - categorical_accuracy: 0.6692 - val_loss: 0.3717 - val_categorical_accuracy: 0.7027
+
+Epoch 00031: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 31/60
+220/220 [==============================] - 32s 144ms/step - loss: 0.4251 - categorical_accuracy: 0.6713 - val_loss: 0.3672 - val_categorical_accuracy: 0.7043
+
+Epoch 00032: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 32/60
+220/220 [==============================] - 32s 144ms/step - loss: 0.4184 - categorical_accuracy: 0.6717 - val_loss: 0.3626 - val_categorical_accuracy: 0.7053
+
+Epoch 00033: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 33/60
+220/220 [==============================] - 31s 142ms/step - loss: 0.4157 - categorical_accuracy: 0.6740 - val_loss: 0.3581 - val_categorical_accuracy: 0.7053
+
+Epoch 00034: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 34/60
+220/220 [==============================] - 32s 144ms/step - loss: 0.4111 - categorical_accuracy: 0.6799 - val_loss: 0.3540 - val_categorical_accuracy: 0.7070
+
+Epoch 00035: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 35/60
+220/220 [==============================] - 31s 140ms/step - loss: 0.4060 - categorical_accuracy: 0.6773 - val_loss: 0.3500 - val_categorical_accuracy: 0.7083
+
+Epoch 00036: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 36/60
+220/220 [==============================] - 30s 138ms/step - loss: 0.3951 - categorical_accuracy: 0.6808 - val_loss: 0.3464 - val_categorical_accuracy: 0.7093
+
+Epoch 00037: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 37/60
+220/220 [==============================] - 31s 139ms/step - loss: 0.3956 - categorical_accuracy: 0.6805 - val_loss: 0.3430 - val_categorical_accuracy: 0.7100
+
+Epoch 00038: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 38/60
+220/220 [==============================] - 31s 139ms/step - loss: 0.3921 - categorical_accuracy: 0.6826 - val_loss: 0.3398 - val_categorical_accuracy: 0.7110
+
+Epoch 00039: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 39/60
+220/220 [==============================] - 31s 140ms/step - loss: 0.3850 - categorical_accuracy: 0.6840 - val_loss: 0.3369 - val_categorical_accuracy: 0.7110
+
+Epoch 00040: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 40/60
+220/220 [==============================] - 31s 142ms/step - loss: 0.3843 - categorical_accuracy: 0.6847 - val_loss: 0.3339 - val_categorical_accuracy: 0.7107
+
+Epoch 00041: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 41/60
+220/220 [==============================] - 30s 138ms/step - loss: 0.3846 - categorical_accuracy: 0.6837 - val_loss: 0.3314 - val_categorical_accuracy: 0.7120
+
+Epoch 00042: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 42/60
+220/220 [==============================] - 31s 141ms/step - loss: 0.3784 - categorical_accuracy: 0.6850 - val_loss: 0.3287 - val_categorical_accuracy: 0.7133
+
+Epoch 00043: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 43/60
+220/220 [==============================] - 30s 138ms/step - loss: 0.3752 - categorical_accuracy: 0.6889 - val_loss: 0.3262 - val_categorical_accuracy: 0.7137
+
+Epoch 00044: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 44/60
+220/220 [==============================] - 30s 138ms/step - loss: 0.3716 - categorical_accuracy: 0.6902 - val_loss: 0.3238 - val_categorical_accuracy: 0.7147
+
+Epoch 00045: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 45/60
+220/220 [==============================] - 31s 139ms/step - loss: 0.3716 - categorical_accuracy: 0.6911 - val_loss: 0.3214 - val_categorical_accuracy: 0.7160
+
+Epoch 00046: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 46/60
+220/220 [==============================] - 30s 137ms/step - loss: 0.3662 - categorical_accuracy: 0.6944 - val_loss: 0.3189 - val_categorical_accuracy: 0.7160
+
+Epoch 00047: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 47/60
+220/220 [==============================] - 31s 140ms/step - loss: 0.3632 - categorical_accuracy: 0.6938 - val_loss: 0.3168 - val_categorical_accuracy: 0.7170
+
+Epoch 00048: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 48/60
+220/220 [==============================] - 30s 138ms/step - loss: 0.3618 - categorical_accuracy: 0.6952 - val_loss: 0.3145 - val_categorical_accuracy: 0.7187
+
+Epoch 00049: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 49/60
+220/220 [==============================] - 30s 137ms/step - loss: 0.3569 - categorical_accuracy: 0.6962 - val_loss: 0.3131 - val_categorical_accuracy: 0.7180
+
+Epoch 00050: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 50/60
+220/220 [==============================] - 31s 141ms/step - loss: 0.3607 - categorical_accuracy: 0.6954 - val_loss: 0.3112 - val_categorical_accuracy: 0.7190
+
+Epoch 00051: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 51/60
+220/220 [==============================] - 30s 138ms/step - loss: 0.3560 - categorical_accuracy: 0.6965 - val_loss: 0.3094 - val_categorical_accuracy: 0.7197
+
+Epoch 00052: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 52/60
+220/220 [==============================] - 30s 137ms/step - loss: 0.3527 - categorical_accuracy: 0.6970 - val_loss: 0.3074 - val_categorical_accuracy: 0.7197
+
+Epoch 00053: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 53/60
+220/220 [==============================] - 30s 137ms/step - loss: 0.3509 - categorical_accuracy: 0.6966 - val_loss: 0.3060 - val_categorical_accuracy: 0.7200
+
+Epoch 00054: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 54/60
+220/220 [==============================] - 30s 137ms/step - loss: 0.3436 - categorical_accuracy: 0.7016 - val_loss: 0.3045 - val_categorical_accuracy: 0.7203
+
+Epoch 00055: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 55/60
+220/220 [==============================] - 30s 137ms/step - loss: 0.3487 - categorical_accuracy: 0.6972 - val_loss: 0.3030 - val_categorical_accuracy: 0.7200
+
+Epoch 00056: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 56/60
+220/220 [==============================] - 30s 136ms/step - loss: 0.3470 - categorical_accuracy: 0.6994 - val_loss: 0.3013 - val_categorical_accuracy: 0.7207
+
+Epoch 00057: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 57/60
+220/220 [==============================] - 30s 137ms/step - loss: 0.3456 - categorical_accuracy: 0.6967 - val_loss: 0.2998 - val_categorical_accuracy: 0.7210
+
+Epoch 00058: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 58/60
+220/220 [==============================] - 31s 140ms/step - loss: 0.3410 - categorical_accuracy: 0.7029 - val_loss: 0.2983 - val_categorical_accuracy: 0.7220
+
+Epoch 00059: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 59/60
+220/220 [==============================] - 30s 136ms/step - loss: 0.3406 - categorical_accuracy: 0.7023 - val_loss: 0.2969 - val_categorical_accuracy: 0.7223
+
+Epoch 00060: LearningRateScheduler reducing learning rate to 1.3314836905919947e-05.
+Epoch 60/60
+220/220 [==============================] - 31s 140ms/step - loss: 0.3375 - categorical_accuracy: 0.7022 - val_loss: 0.2958 - val_categorical_accuracy: 0.7217
+
+
