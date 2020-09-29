@@ -8,8 +8,8 @@ ________________________________________________________________________________
         else:
           return lr * tf.math.exp(-0.1)
       
-  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/6c62ea95a517f1b56534f0b233cbc73a0d6550e8/tensorboard/epoch_categorical_accuracy(1).svg)
-  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/6c62ea95a517f1b56534f0b233cbc73a0d6550e8/tensorboard/tensorboard/epoch_loss(1).svg)
+  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/b2fc2fa7b1e51158731c46da6147d71a9fb401c7/tensorboard/epoch_categorical_accuracy(1).svg)
+  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/b2fc2fa7b1e51158731c46da6147d71a9fb401c7/tensorboard/epoch_loss(1).svg)
    
   
   ## Прогон (2). MobileNetV2. Линейное понижение lr 
@@ -20,6 +20,6 @@ ________________________________________________________________________________
         else:
           return lr
           
-  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/6c62ea95a517f1b56534f0b233cbc73a0d6550e8/tensorboard/epoch_categorical_accuracy(2).svg)
-  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/6c62ea95a517f1b56534f0b233cbc73a0d6550e8/tensorboard/tensorboard/epoch_loss(2).svg)
+  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/b2fc2fa7b1e51158731c46da6147d71a9fb401c7/tensorboard/epoch_categorical_accuracy(2).svg)
+  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/b2fc2fa7b1e51158731c46da6147d71a9fb401c7/tensorboard/epoch_loss(2).svg)
 
