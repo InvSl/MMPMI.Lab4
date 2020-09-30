@@ -52,7 +52,7 @@ ________________________________________________________________________________
         else:
           return lr
           
-  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/b2fc2fa7b1e51158731c46da6147d71a9fb401c7/tensorboard/epoch_categorical_accuracy(4).svg)
-  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/b2fc2fa7b1e51158731c46da6147d71a9fb401c7/tensorboard/epoch_loss(4).svg)
+  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/ee937f5add707b436e2663d2f3e9d6dbf8afef97/networks/epoch_categorical_accuracy(4).svg)
+  ![Image alt](https://raw.githubusercontent.com/InvSl/MMPMI.Lab4/ee937f5add707b436e2663d2f3e9d6dbf8afef97/networks/epoch_loss(4).svg)
 
 
